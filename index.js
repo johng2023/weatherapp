@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/weather', async (req, res) => {
-    const cityName = req.body['city-input'];
+    const cityName = capitalizeWords(req.body['city-input']);
     try {
         const response = await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`)
         const latitude = response.data[0].lat;
