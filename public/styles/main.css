@@ -1,0 +1,17 @@
+
+#input-container{
+    width: fit-content;
+}
+
+#weather-container{
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+form{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #eeeeee;
+}
