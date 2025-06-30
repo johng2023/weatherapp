@@ -2,3 +2,5 @@ node_modules/
 .env
 .DS_Store
 *.log
+
+const apiKey = "f348829cc54363d0c6c8a3180cac23c1";

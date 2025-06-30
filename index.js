@@ -7,7 +7,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 const port = 3000;
 app.use(express.static('public'));
 
-const apiKey = "f348829cc54363d0c6c8a3180cac23c1";
 
 function capitalizeWords(str) {
     return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
